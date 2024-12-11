@@ -4,7 +4,7 @@ def bubble_sort():
     for i in range(n-1):
         swapped=False
         for j in range(n-i-1):
-           if arr[j+1]<arr[j]:
+           if arr[j+1]<rr[j]:
                arr[j],arr[j+1]=arr[j+1],arr[j]
                swapped=True
         if not swapped:
